@@ -1,0 +1,22 @@
+<template>
+  <div class="contact">
+    <h2>Welcome to the Deep HTS Contact Info!</h2>
+    <p>We are a dedicated team of researchers and developers focused on advancing the field of DNA sequencing using deep learning techniques. Our models have been trained on large-scale datasets and have shown promising results in various benchmarks.</p>    
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Contact'
+}
+</script>
+
+<style scoped>
+.contact {
+  padding: 20px;
+  margin-top: 20px;
+}
+.contact h2, .contact h3 {
+  color: #333;
+}
+</style>
